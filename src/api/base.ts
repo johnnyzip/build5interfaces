@@ -42,6 +42,7 @@ export const QUERY_MAX_LENGTH = 100;
 
 export enum ApiRoutes {
   GET_BY_ID = '/getById',
+  GET_MANY_BY_ID = '/getManyById',
   GET_MANY = '/getMany',
   GET_MANY_ADVANCED = '/getManyAdvanced',
   GET_UPDATED_AFTER = '/getUpdatedAfter',
@@ -52,4 +53,4 @@ export enum ApiRoutes {
   KEEP_ALIVE = '/keepAlive',
 }
 
-export const PING_INTERVAL = 30000;
+export const PING_INTERVAL = 10000;
